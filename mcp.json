@@ -3,7 +3,7 @@
     "calorie-api": {
       "url": "https://calorieapiadmin.com/mcp/",
       "headers": {
-        "X-API-Key": "YOUR_KEY"
+        "X-API-Key": "${BUSYBODY_API_KEY}"
       }
     }
   }

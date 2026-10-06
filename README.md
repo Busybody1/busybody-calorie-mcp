@@ -7,7 +7,7 @@ tools returned instead of from what the model remembers.
 
 - Product page: <https://calorieapi.io/mcp>
 - Pricing and the 7-day trial: <https://calorieapi.io/mcp/pricing>
-- Server URL: `https://calorieapiadmin.com/mcp`
+- Server URL: `https://calorieapiadmin.com/mcp/`
 
 There is no code to install. The server is hosted; this repository holds the connect
 configuration and example prompts.
@@ -21,7 +21,7 @@ when you create it. It is not emailed.
 
 ```bash
 claude mcp add --transport http calorie-api \
-  https://calorieapiadmin.com/mcp \
+  https://calorieapiadmin.com/mcp/ \
   --header "X-API-Key: YOUR_KEY"
 ```
 
@@ -31,7 +31,7 @@ claude mcp add --transport http calorie-api \
 {
   "mcpServers": {
     "calorie-api": {
-      "url": "https://calorieapiadmin.com/mcp",
+      "url": "https://calorieapiadmin.com/mcp/",
       "headers": { "X-API-Key": "YOUR_KEY" }
     }
   }

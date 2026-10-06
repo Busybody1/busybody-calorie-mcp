@@ -1,0 +1,23 @@
+{
+  "name": "busybody-mcp",
+  "version": "1.0.0",
+  "description": "Look up calories and macros for foods, barcodes, portions, recipes, and photos.",
+  "author": {
+    "name": "BusyBody FIT LTD"
+  },
+  "homepage": "https://calorieapi.io/mcp",
+  "repository": "https://github.com/Busybody1/busybody-calorie-mcp",
+  "license": "MIT",
+  "keywords": ["nutrition", "calories", "macros", "food", "barcode"],
+  "variables": {
+    "type": "object",
+    "properties": {
+      "BUSYBODY_API_KEY": {
+        "type": "string",
+        "title": "BusyBody API key",
+        "description": "API key from the Calorie API dashboard after you start the MCP plan. Sent only as the X-API-Key header."
+      }
+    },
+    "required": ["BUSYBODY_API_KEY"]
+  }
+}
